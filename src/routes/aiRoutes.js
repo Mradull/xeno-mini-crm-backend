@@ -26,7 +26,7 @@ router.post("/message-suggest", async (req, res) => {
       {
         headers: {
           Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
-          "HTTP-Referer": "http://localhost:5173", // Replace with your frontend URL
+          "HTTP-Referer": "https://xeno-mini-crm-frontend.vercel.app/", // Replace with your frontend URL
           "Content-Type": "application/json",
         },
       }
